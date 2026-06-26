@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="InfinityOne - Esclusiva dimora di lusso con piscina a sfioro panoramica. Un'oasi di tranquillità dove l'orizzonte si fonde con l'acqua.">
+    <title>InfinityOne | Piscina a Sfioro Panoramica & Dimora di Lusso</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress-bar"></div>
+
+    <!-- Header / Navigation -->
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#" class="logo" id="header-logo">
+                <span class="logo-text">InfinityOne</span>
+                <span class="logo-symbol">
+                    <svg viewBox="0 0 100 100" width="30" height="30" fill="none" stroke="currentColor" stroke-width="6">
+                        <path d="M30,50 C30,35 45,35 50,50 C55,65 70,65 70,50 C70,35 55,35 50,50 C45,65 30,65 30,50 Z"/>
+                    </svg>
+                </span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu-container">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#concept" class="nav-link">Il Concept</a></li>
+                    <li><a href="#piscina" class="nav-link">La Piscina</a></li>
+                    <li><a href="#villa" class="nav-link">La Villa</a></li>
+                    <li><a href="#esperienze" class="nav-link">Esperienze</a></li>
+                    <li><a href="#galleria" class="nav-link">Galleria</a></li>
+                    <li><a href="#contatti" class="nav-link btn-inquiry">Richiedi Soggiorno</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Mobile Menu Toggle -->
+            <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Apri menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <img src="images/hero_pool.png" alt="Piscina a sfioro panoramica al tramonto" class="hero-bg-image">
+            
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-tagline fade-in-up">Dimora Esclusiva</span>
+                    <h1 class="hero-title fade-in-up delay-1">INFINITYONE</h1>
+                    <p class="hero-subtitle fade-in-up delay-2">Laddove l'acqua e il cielo si uniscono in una singola linea infinita. Una piscina a sfioro panoramica pensata per risvegliare i sensi.</p>
+                    <div class="hero-actions fade-in-up delay-3">
+                        <a href="#concept" class="btn btn-primary" id="btn-discover">Esplora la Visione</a>
+                        <a href="#contatti" class="btn btn-outline" id="btn-inquire-hero">Verifica Disponibilità</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Down Indicator -->
+            <div class="scroll-down-indicator">
+                <span class="scroll-text">Scorri</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <!-- Concept Section -->
+        <section id="concept" class="section concept-section">
+            <div class="container">
+                <div class="grid grid-2-cols align-center gap-lg">
+                    <div class="animate-on-scroll">
+                        <span class="section-tagline">L'Origine del Nome</span>
+                        <h2 class="section-title">Perché InfinityOne?</h2>
+                        <p class="text-large text-muted">InfinityOne nasce da una visione architettonica semplice ma grandiosa: creare un unico punto d'incontro ("One") in cui i confini materiali svaniscono ed entra in scena l'infinito ("Infinity").</p>
+                        <p class="text-normal text-muted margin-top-md">La nostra piscina a sfioro non è solo un elemento d'acqua. È un'opera d'arte lineare che elimina la separazione tra la superficie cristallina, il cielo aperto e il panorama mozzafiato sottostante. Nuotare qui significa galleggiare nel vuoto, sospesi tra terra e aria.</p>
+                        
+                        <div class="quote-container margin-top-lg">
+                            <blockquote>"Una linea invisibile che cancella i limiti fisici, dove lo sguardo si perde nella perfezione dell'infinito."</blockquote>
+                        </div>
+                    </div>
+                    
+                    <div class="concept-visual animate-on-scroll delay-1">
+                        <div class="glass-card visual-card">
+                            <div class="card-inner-glow"></div>
+                            <div class="card-icon">
+                                <svg viewBox="0 0 100 100" width="50" height="50" fill="none" stroke="currentColor" stroke-width="4">
+                                    <path d="M10,80 Q50,20 90,80" stroke-dasharray="2,2"/>
+                                    <path d="M10,50 L90,50" />
+                                    <circle cx="50" cy="50" r="12" fill="#000" stroke="#00f0ff" stroke-width="4"/>
+                                </svg>
+                            </div>
+                            <h3>La Prospettiva Unica</h3>
+                            <p>Progettata con un orientamento solare perfetto per catturare il percorso della luce dall'alba al tramonto, regalando riflessi dorati e cangianti sull'acqua.</p>
+                            
+                            <ul class="visual-features">
+
+                                <li>
+                                    <span class="icon-bullet"></span>
+                                    <span>Orientamento panoramico a 180 gradi</span>
+                                </li>
+                                <li>
+                                    <span class="icon-bullet"></span>
+                                    <span>Fusione prospettica tra acqua e cielo</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Piscina Section -->
+        <section id="piscina" class="section piscina-section dark-bg">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-tagline">Capolavoro d'Acqua</span>
+                    <h2 class="section-title">La Piscina a Sfioro Panoramica</h2>
+                    <p class="section-subtitle">Un'opera di ingegneria idraulica e design minimalista integrata nel verde.</p>
+                </div>
+
+                <div class="grid grid-2-cols gap-lg align-center">
+                    <div class="pool-image-wrapper animate-on-scroll">
+                        <div class="image-border-glow"></div>
+                        <img src="images/lounge_night.png" alt="Piscina illuminata di notte con lounge" class="pool-image">
+                    </div>
+
+                    <div class="pool-details animate-on-scroll delay-1">
+                        <div class="feature-item">
+                            <div class="feature-number">01</div>
+                            <div class="feature-text">
+                                <h3>Sfioro Infinito Sospeso</h3>
+                                <p>Il bordo a sfioro scende lentamente sulla vallata, creando l'illusione ottica di una cascata d'acqua che si tuffa direttamente nell'orizzonte.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-number">02</div>
+                            <div class="feature-text">
+                                <h3>Acqua</h3>
+                                <p>Trattamento a sale senza cloro chimico per una sensazione vellutata e delicata sulla pelle.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-number">03</div>
+                            <div class="feature-text">
+                                <h3>Illuminazione Scenografica Notturna</h3>
+                                <p>Sistemi LED subacquei che creano giochi di luce blu cobalto e indaco durante le ore notturne, trasformando la piscina in un cielo stellato liquido.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-number">04</div>
+                            <div class="feature-text">
+                                <h3>Lounge e Solarium direttamente in piscina</h3>
+                                <p>La spiaggia in piscina trattiene il calore solare, con lettini prendisole ergonomici di design.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- La Villa Section -->
+        <section id="villa" class="section villa-section">
+            <div class="container">
+                <div class="grid grid-2-cols gap-lg align-center reverse-mobile">
+                    <div class="villa-details animate-on-scroll">
+                        <span class="section-tagline">Architettura e Design</span>
+                        <h2 class="section-title">La Dimora Unica</h2>
+                        <p class="text-large text-muted">La piscina è la gemma, tra due alberi di noci che le fanno da cornice, ideale per un soggiorno indimenticabile di assoluta privacy.</p>
+                        <p class="text-normal text-muted margin-top-md">InfinityOne è una struttura moderna, il portico progettato senza limiti che annullano la distanza tra gli ambienti, sempre in via di miglioramenti e il deck esterno della piscina. Costruita con materiali ecocompatibili locali, si adatta armonicamente all'ambiente naturale circostante.</p>
+                        
+                        <div class="villa-specs grid grid-2-cols margin-top-lg">
+                            <div class="spec-card">
+                                <span class="spec-title">Superficie Deck</span>
+                                <span class="spec-value">20 mq</span>
+                            </div>
+                            <div class="spec-card">
+                                <span class="spec-title">Piscina</span>
+                                <span class="spec-value">11 x 5 m</span>
+                            </div>
+                            <div class="spec-card">
+                                <span class="spec-title">Privacy</span>
+                                <span class="spec-value">100% Assoluta</span>
+                            </div>
+                            <div class="spec-card">
+                                <span class="spec-title">Capacità Ospiti</span>
+                                <span class="spec-value">Solo 2 persone</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="villa-image-wrapper animate-on-scroll delay-1">
+                        <div class="image-border-glow"></div>
+                        <img src="images/villa_architecture.png" alt="Architettura moderna di Villa InfinityOne al tramonto" class="villa-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Esperienze Section -->
+        <section id="esperienze" class="section esperienze-section dark-bg">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-tagline">Momenti Unici</span>
+                    <h2 class="section-title">Esperienze su Misura</h2>
+                    <p class="section-subtitle">Vivere InfinityOne significa tranquillità, ideate per rendere memorabile ogni singolo istante.</p>
+                </div>
+
+                <div class="grid grid-3-cols gap-md margin-top-lg">
+                    
+
+
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Galleria Section -->
+        <section id="galleria" class="section galleria-section">
+            <div class="container">
+                <div class="section-header text-center animate-on-scroll">
+                    <span class="section-tagline">Visioni D'Autore</span>
+                    <h2 class="section-title">La Galleria Fotografica</h2>
+                    <p class="section-subtitle">Scatti esclusivi della struttura che mostrano l'armonia tra architettura, acqua e orizzonte.</p>
+                </div>
+
+                <div class="gallery-grid animate-on-scroll">
+                    <div class="gallery-item item-large" onclick="openLightbox(0)">
+                        <img src="images/hero_pool.png" alt="Infinity pool al tramonto">
+                        <div class="gallery-overlay">
+                            <span>Ingrandisci vista tramonto</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(1)">
+                        <img src="images/lounge_night.png" alt="Lounge area e piscina di notte">
+                        <div class="gallery-overlay">
+                            <span>Ingrandisci vista notturna</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" onclick="openLightbox(2)">
+                        <img src="images/villa_architecture.png" alt="Facciata villa e specchio d'acqua">
+                        <div class="gallery-overlay">
+                            <span>Ingrandisci vista architettura</span>
+                        </div>
+                    </div>
+					
+					<div class="gallery-item" onclick="openLightbox(3)">
+                        <img src="images/villa_architecture.png" alt="Facciata villa e specchio d'acqua">
+                        <div class="gallery-overlay">
+                            <span>Ingrandisci vista architettura</span>
+                        </div>
+                    </div>
+					
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="gallery-lightbox" class="lightbox" onclick="closeLightbox()">
+            <span class="lightbox-close">&times;</span>
+            <div class="lightbox-content" onclick="event.stopPropagation()">
+                <img id="lightbox-img" src="" alt="Vista ingrandita">
+                <a class="lightbox-prev" onclick="prevLightboxImage()">&#10094;</a>
+                <a class="lightbox-next" onclick="nextLightboxImage()">&#10095;</a>
+            </div>
+        </div>
+
+        <!-- Contatti Section (Richiesta Soggiorno) -->
+        <section id="contatti" class="section contatti-section dark-bg">
+            <div class="container">
+                <div class="grid grid-2-cols gap-lg">
+                    
+                    <div class="contact-info-panel animate-on-scroll">
+                        <span class="section-tagline">Prenotazioni Private</span>
+                        <h2 class="section-title">Esperienza InfinityOne</h2>
+                        <p class="text-large text-muted">InfinityOne è disponibile per locazioni esclusive settimanali ed eventi privati selezionati.</p>
+                        <p class="text-normal text-muted margin-top-md">Per preservare l'esclusività della dimora, la disponibilità viene concessa su base selettiva. Compilando il modulo a fianco sarete ricontattati dal nostro Concierge per definire ogni dettaglio del vostro soggiorno.</p>
+                        
+                        <div class="contact-details-list margin-top-lg">
+                            <div class="contact-detail-item">
+                                <span class="detail-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+                                        <circle cx="12" cy="9" r="2"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>Posizione</h4>
+                                    <p class="text-muted">Località Costiera Panoramica, Italia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <span class="detail-icon">
+                                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                        <polyline points="22,6 12,13 2,6"/>
+                                    </svg>
+                                </span>
+                                <div>
+                                    <h4>Inquiry Dirette</h4>
+                                    <p class="text-muted">concierge@infinityone.luxury</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-panel animate-on-scroll delay-1">
+                        <div class="glass-card form-card">
+                            <div class="card-inner-glow"></div>
+                            <h3>Richiedi Informazioni</h3>
+                            
+                            <form id="inquiry-form" class="inquiry-form">
+                                <div class="form-group-row">
+                                    <div class="form-group">
+                                        <label for="name">Nome Completo</label>
+                                        <input type="text" id="name" name="name" placeholder="Es. Mario Rossi" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="email">Indirizzo Email</label>
+                                        <input type="email" id="email" name="email" placeholder="Es. mario@example.com" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group-row">
+                                    <div class="form-group">
+                                        <label for="checkin">Data Arrivo</label>
+                                        <input type="date" id="checkin" name="checkin" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="checkout">Data Partenza</label>
+                                        <input type="date" id="checkout" name="checkout" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="guests">Numero di Ospiti</label>
+                                    <select id="guests" name="guests">
+                                        <option value="1-2">1 - 2 Ospiti</option>
+                                        <option value="3-4">3 - 4 Ospiti</option>
+                                        <option value="5-6">5 - 6 Ospiti</option>
+                                        <option value="7-8">7 - 8 Ospiti</option>
+                                    </select>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">Esigenze Particolari</label>
+                                    <textarea id="message" name="message" rows="4" placeholder="Chef privato, servizi transfer, eventi speciali..."></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-block" id="btn-submit-inquiry">Invia Richiesta Esclusiva</button>
+                            </form>
+                            
+                            <!-- Success Message -->
+                            <div id="form-success-message" class="form-success-hidden">
+                                <div class="success-icon">
+                                    <svg viewBox="0 0 24 24" width="40" height="40" fill="none" stroke="#00f0ff" stroke-width="2">
+                                        <polyline points="20 6 9 17 4 12"/>
+                                    </svg>
+                                </div>
+                                <h3>Richiesta Ricevuta</h3>
+                                <p>Il nostro Concierge prenderà in carico la tua richiesta ed entro 24 ore ti contatterà per confermare la disponibilità di InfinityOne.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-container">
+            <p class="footer-copyright">&copy; 2026 InfinityOne Luxury Dimore. Tutti i diritti riservati.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Termini & Condizioni</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Script -->
+    <script src="app.js"></script>
+</body>
+</html>
